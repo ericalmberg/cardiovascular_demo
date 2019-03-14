@@ -1,5 +1,7 @@
 # cardiovascular_demo
-Final project for Ramapo college - Medical Physics. 
+Final project for Ramapo college - Medical Physics.
+
+Degree Program: [Engineering Physics](https://www.ramapo.edu/majors-minors/majors/engineering-physics/)
 
 Course convening professor: [Dr. Daniela Buna](https://www.ramapo.edu/tas/faculty/daniela-buna/)
 
