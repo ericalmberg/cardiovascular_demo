@@ -1,34 +1,53 @@
-#include <Arduino.h>
 /*
---------- boilerplate ----------
-void setup() {
-  // put your setup code here, to run once:
-  Serial.begin(9600);
-}
+ * Project: Ramapo Engineering Design Project
+ * Description: Mechanical analog of the cardiovascular system
+ * Author: Eric Almberg
+ * Date: March 2019
+ */
 
-void loop() {
-  // put your main code here, to run repeatedly:
-  Serial.println("Hello world");
+// pio requirements
+#include <Arduino.h>
+
+// servo driver requirements
+#include <Wire.h>
+#include <Adafruit_PWMServoDriver.h>
+#include "servoPWMSimple.h"
+
+// display requirements
+#include "SPI.h"
+#include "Adafruit_GFX.h"
+#include "Adafruit_ILI9341.h"
+
+// touch requirements
+#include <Adafruit_GFX.h>     // Core graphics library
+#include <Adafruit_ILI9341.h> // Hardware-specific library
+#include <Adafruit_STMPE610.h>
+
+// project specific requirements
+#include "heart.h"
+
+void setup()
+{
+  Serial.begin(9600);
+
+  // setup the pwm driver chip
+  pwm.begin();
+  pwm.setPWMFreq(freq);
+  Wire.setClock(400000);
+
+  // initialize the servo positions
+  left_atrium.move(&pwm, left_atrium_tdc);
+  right_atrium.move(&pwm, right_atrium_tdc);
+  left_ventricle.move(&pwm, left_ventricle_tdc);
+  right_ventricle.move(&pwm, right_ventricle_tdc);
   delay(1000);
 }
-*/
 
-
-/***************************************************
-  This is our GFX example for the Adafruit ILI9341 Breakout and Shield
-  ----> http://www.adafruit.com/products/1651
-
-  Check out the links above for our tutorials and wiring diagrams
-  These displays use SPI to communicate, 4 or 5 pins are required to
-  interface (RST is optional)
-  Adafruit invests time and resources providing this open source code,
-  please support Adafruit and open-source hardware by purchasing
-  products from Adafruit!
-
-  Written by Limor Fried/Ladyada for Adafruit Industries.
-  MIT license, all text above must be included in any redistribution
- ****************************************************/
-
+void loop()
+{
+  delay(1000);
+  pump();
+}
 
 
 /*
@@ -400,6 +419,14 @@ void loop(void) {
   MIT license, all text above must be included in any redistribution
  ****************************************************/
 
+
+
+/*
+
+---------- Touch Display Demo ------------------
+
+
+
 #include <SPI.h>
 #include <Wire.h>      // this is needed even tho we aren't using it
 
@@ -510,3 +537,5 @@ void loop() {
     tft.fillCircle(p.x, p.y, PENRADIUS, currentcolor);
   }
 }
+
+*/
