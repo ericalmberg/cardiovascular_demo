@@ -44,6 +44,8 @@ void SimpleServo::move(Adafruit_PWMServoDriver* pwm, int position)
 {
     int pulse_width = map(position, 0, 1023, 0, m_range);
     pwm->setPWM(m_servo_id, m_min_boundary_value, m_min_boundary_value + pulse_width);
+    /*
+    test logging
     Serial.print("Commanded setting: ");
     Serial.println(position);
     Serial.print("pwm.setPWM(");
@@ -53,4 +55,5 @@ void SimpleServo::move(Adafruit_PWMServoDriver* pwm, int position)
     Serial.print(",");
     Serial.print(m_min_boundary_value + pulse_width);
     Serial.println(");");
+    */
 }

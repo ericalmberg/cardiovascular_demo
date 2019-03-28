@@ -1,3 +1,10 @@
+/*
+ * Library: Simple PWM driver
+ * Description: Library written to create easy to interact with servo objects from the adafruit feather PWM driver
+ * Author: Eric Almberg
+ * Date: March 2019
+ */
+
 #ifndef SERVO_PWM_SIMPLE
 #define SERVO_PWM_SIMPLE
 
