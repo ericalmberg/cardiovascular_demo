@@ -7,8 +7,10 @@ Course convening professor: [Dr. Daniela Buna](https://www.ramapo.edu/tas/facult
 
 Major convening professor: [Dr. Phillip Anderson](https://www.ramapo.edu/tas/faculty/philip-m-anderson/)
 
-Demo to use a CNC'd dual sided dual pump system to demonstrate the left/right atriums and aorta. Fusion 360 files:
+Demo to use a CNC'd dual sided dual pump system to demonstrate the left/right atriums and aorta. 
 
+Fusion 360 (Mechanical CAD) files
+https://a360.co/2FId6hy
 
-
-TODO: add a better description & setup public fusion files
+Demo Video
+https://youtu.be/A3nEmUXrpWM
