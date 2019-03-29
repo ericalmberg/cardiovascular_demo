@@ -19,6 +19,9 @@ https://a360.co/2FId6hy
 Bill of Materials
 https://docs.google.com/spreadsheets/d/1l_A88m3AdP0kK7D-2ACFuB0Jg73EYGbE-cdp6S_MXoc/edit?usp=sharing
 
+Accompanying Presentation
+https://docs.google.com/presentation/d/1GmPdfVxtd6nniJJMYJBHIv5Syo3ov5kHrMCCtKB0QFs/edit?usp=sharing
+
 ## Videos
 Demo video
 https://youtu.be/A3nEmUXrpWM
