@@ -3,7 +3,7 @@ Final project for Ramapo college - Medical Physics.
 
 Demonstrating the function of the heart via a mechanical analog. Body CNC'd from acrylic, servos are used to drive 3d printed pistons to simulate the muscle action of pumping blood in the same chambered system the human heart uses.
 
-[Adafruit ESP32 Feather](https://www.adafruit.com/product/3315), [2.4" TFT Touchscreen Display](https://www.adafruit.com/product/3315), and [8 Channel PWM Feather](https://www.adafruit.com/product/2928) stacked for the electronics stack. A servo library to simplify driving servos using the 8-channel pwm shield was written and is contained in the /src folder named servoPWMSimple.h and servoPWMSimple.cpp.
+[Adafruit ESP32 Feather](https://www.adafruit.com/product/3405), [2.4" TFT Touchscreen Display](https://www.adafruit.com/product/3315), and [8 Channel PWM Feather](https://www.adafruit.com/product/2928) stacked for the electronics stack. A servo library to simplify driving servos using the 8-channel pwm shield was written and is contained in the /src folder named servoPWMSimple.h and servoPWMSimple.cpp.
 
 ## College Information
 
