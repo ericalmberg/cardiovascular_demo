@@ -1,7 +1,7 @@
 # cardiovascular_demo
 Final project for Ramapo college - Medical Physics.
 
-Demo to use a CNC'd dual sided dual pump system to demonstrate the left/right atriums and aorta. 
+Demonstrating the function of the heart via a mechanical analog. Body CNC'd from acrylic, servos are used to drive 3d printed pistons to simulate the muscle action of pumping blood in the same chambered system the human heart uses.
 
 ## College Information
 
