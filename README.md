@@ -28,5 +28,5 @@ https://docs.google.com/presentation/d/1GmPdfVxtd6nniJJMYJBHIv5Syo3ov5kHrMCCtKB0
 Demo video
 https://youtu.be/A3nEmUXrpWM
 
-Build videos album
+Build videos & pictures
 https://photos.app.goo.gl/FobQX9jZzLgX1nYy9
