@@ -15,18 +15,13 @@ Major convening professor: [Dr. Phillip Anderson](https://www.ramapo.edu/tas/fac
 
 ## Other Source Files
 
-Fusion 360 (Mechanical CAD) files
-https://a360.co/2FId6hy
+[Fusion 360 (Mechanical CAD) files](https://a360.co/2FId6hy)
 
-Bill of Materials
-https://docs.google.com/spreadsheets/d/1l_A88m3AdP0kK7D-2ACFuB0Jg73EYGbE-cdp6S_MXoc/edit?usp=sharing
+[Bill of Materials](https://docs.google.com/spreadsheets/d/1l_A88m3AdP0kK7D-2ACFuB0Jg73EYGbE-cdp6S_MXoc/edit?usp=sharing)
 
-Accompanying Presentation
-https://docs.google.com/presentation/d/1GmPdfVxtd6nniJJMYJBHIv5Syo3ov5kHrMCCtKB0QFs/edit?usp=sharing
+[Accompanying Presentation](https://docs.google.com/presentation/d/1GmPdfVxtd6nniJJMYJBHIv5Syo3ov5kHrMCCtKB0QFs/edit?usp=sharing)
 
 ## Videos
-Demo video
-https://youtu.be/A3nEmUXrpWM
+[Demo video](https://youtu.be/A3nEmUXrpWM)
 
-Build videos & pictures
-https://photos.app.goo.gl/FobQX9jZzLgX1nYy9
+[Build videos & pictures](https://photos.app.goo.gl/FobQX9jZzLgX1nYy9)
